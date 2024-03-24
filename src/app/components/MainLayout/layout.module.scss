@@ -1,0 +1,14 @@
+.mainLayout {
+  border: 1px solid greenyellow;
+
+  .header {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+
+    .logo {
+      filter: invert(1);
+      cursor: pointer;
+    }
+  }
+}
