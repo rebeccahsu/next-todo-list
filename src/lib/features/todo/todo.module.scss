@@ -1,0 +1,56 @@
+.todoContainer {
+  padding: 20px;
+}
+
+.inputRow {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  .input {
+    padding: 5px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+.button {
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.todoList {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todoItem {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: floralwhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(42, 42, 42);
+
+  .deleteButton {
+    font-size: 10px;
+    padding: 2px 4px;
+  }
+}
+
+.todoItem.isCompleted {
+  opacity: 0.5;
+
+  .text {
+    text-decoration: line-through;
+  }
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

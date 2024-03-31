@@ -4,7 +4,8 @@ import styles from "./page.module.css"
 import MainLayout from "./components/MainLayout"
 import TodoList from "./components/TodoList"
 import StoreProvider from "./StoreProvider"
-import { Counter } from "@/lib/features/counter/Counter"
+import Counter from "@/lib/features/counter/Counter"
+import Todo from "@/lib/features/todo/Todo"
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
 
           <Counter />
 
-          <TodoList />
+          <Todo />
 
 
         </main>
