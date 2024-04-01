@@ -19,11 +19,6 @@ export default function MainLayout({ children }) {
           className={styles.logo}
           onClick={() => router.push('/')}
         />
-        HEADER
-
-        <Link href="/login">
-          To Login
-        </Link>
       </header>
       {children}
     </div>
