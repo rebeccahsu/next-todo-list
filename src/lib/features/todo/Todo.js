@@ -38,6 +38,7 @@ const Todo = () => {
           value={text}
           onChange={handleInputChange}
           className={styles.input}
+          onKeyDown={(e) => e.key === "Enter" && handleAddTodo()}
         />
         <button
           onClick={handleAddTodo}
